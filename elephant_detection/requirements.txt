@@ -1,0 +1,11 @@
+# ── Elephant Detection Dashboard – Requirements ──────────────────
+# Install with:  pip install -r requirements.txt
+
+streamlit>=1.35.0
+opencv-python-headless>=4.9.0
+Pillow>=10.0.0
+numpy>=1.26.0
+requests>=2.31.0
+pandas>=2.2.0
+inference-sdk>=0.9.0        # Roboflow inference client
+roboflow>=1.1.0             # optional: for model management / training
